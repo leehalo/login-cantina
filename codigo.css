@@ -22,81 +22,86 @@ h1 {
     background-color: #FFFFFF;
     display: flex;
     width:498px ;
-    border-radius: 24px;
+     border-radius: 24px;
     padding: 32px;
-    gap: 16px;
+    
     border: 1px solid #eee;
     flex-direction: column;
 }
 
-.inpEmail{
-    background-color: #F5F5F5;
-    border: none;
-    width: calc(100% - 32px);
-}
 
-.inpSenha{
-    background-color: #F5F5F5;
-    border: none;
-    width: calc(100% - 32px);
-}
-
-.tituloLog{
+.titulo{
     display: flex;
     justify-content: center;
-    font-family: Poppins;
-    size: 24px;
     font-weight: 600;
-}
-
-input{
-    border-radius: 16px;
-    padding: 20px 16px 20px 16px;
-    gap: 10px;
     font-family: Poppins;
 }
 
 
-.senhaEsquecida{
+.boxCod{
+background-color: #3a24ff;
+
+
+}
+
+.numb1{
+background-color: #FF2459;
+width: 74px;
+}
+
+.numb2{
+    background-color: #FF2459;
+    width: 74px;
+
+}
+
+.numb3{
+    background-color: #FF2459;
+    width: 74px;
+
+}
+
+.numb4{
+    background-color: #FF2459;
+    width: 74px;
+
+}
+
+.cod5{
+    background-color: #FF2459;
+    width: 74px;
+
+}
+
+
+.subtitulo{
     display: flex;
     justify-content: center;
+    font-family: Poppins;
+    font-weight: 400;
+    height: 24px;
+    margin-bottom: 5px;
 }
+
+
 
 .botaoP{
     display: flex;
     justify-content: center;
 }
 
-.linkEsqSenha{
-    size: 10px;
-   line-height: 15.01px;
-   font-family: Poppins;
-   color: black;
-   text-decoration: none;
-}
 
-.loguin{
+.enviar{
 background-color: #FF2459;
 color: white;
 border-radius: 16px;
 padding: 12px 32px 12px 32px;
 font-family: Poppins;
 border: none;
+margin-top: 16px;
 }
 
-.textEmail{
-    font-family: Poppins;
-    font-weight: 400;
-    font-size: 16px;
-    margin-bottom: 5px;
-}
 
-.textSenha{
-    font-family: Poppins;
-    font-weight: 400;
-    font-size: 16px;
-    margin-bottom: 5px;
-}
 
 .nomeCantina{
     font-family: Montserrat;
